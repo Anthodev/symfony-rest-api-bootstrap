@@ -1,0 +1,7 @@
+App\Domain\User\Entity\Role:
+    role_admin:
+        __factory: { '@App\Domain\User\ReferenceProvider\RoleReferenceProvider::get': [<(App\Domain\User\Enum\RoleCodeEnum::ROLE_ADMIN->value)>] }
+    role_user:
+        __factory: { '@App\Domain\User\ReferenceProvider\RoleReferenceProvider::get': [<(App\Domain\User\Enum\RoleCodeEnum::ROLE_USER->value)>] }
+    role_guest:
+        __factory: { '@App\Domain\User\ReferenceProvider\RoleReferenceProvider::get': [<(App\Domain\User\Enum\RoleCodeEnum::ROLE_GUEST->value)>] }
