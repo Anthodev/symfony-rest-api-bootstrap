@@ -1,0 +1,13 @@
+App\Domain\User\Entity\User:
+    user_admin:
+        uuid: "18adca17-9f47-4815-bc31-c68ee07a1a4b"
+        email: "admin@test.io"
+        username: "admin"
+        password: "Test@1234"
+        role: "@role_admin"
+    user1_user:
+        uuid: "ec10a3c0-ded7-4c06-b569-a2d313f83910"
+        email: "user1@test.io"
+        username: "user1"
+        password: "Test@1234"
+        role: "@role_user"

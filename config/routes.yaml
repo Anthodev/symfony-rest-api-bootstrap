@@ -1,0 +1,8 @@
+api_login_check:
+    path: /api/login_check
+    methods: [POST]
+
+user_controller:
+    resource: ../src/Domain/User/Controller/
+    type: attribute
+    prefix: /api

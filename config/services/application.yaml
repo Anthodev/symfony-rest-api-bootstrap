@@ -1,0 +1,3 @@
+services:
+    App\Application\Common\Builder\BaseBuilderInterface: '@App\Application\Common\Builder\BaseBuilder'
+    App\Application\Common\Manager\BaseManagerInterface: '@App\Application\Common\Manager\BaseManager'
